@@ -1,0 +1,16 @@
+Thinking about the program you worked on today:
+
+1. How similar was your plan to the final program? Did you have to digress from your plan as the program developed?
+2. Does each of your classes follow the Single Responsibility principle? Or are any of your classes doing too much?
+3. Did you practice TDD?
+4. Are each of your methods tested? Did you find anything difficult to test?
+
+Answers:
+
+1. Our plan was somewhat similar to our final program, but we had to add a few things. Additionally, we did more in our HiddenWord class than we anticipated.
+
+2. We followed the Single Responsibility Principle generally. Though it is debatable if we ended up putting too much into one particular function in the HiddenWord class. 
+
+3. We did practice TDD. This was definitely helpful for building the more complex check_guess function. 
+
+4. Yes, all our methods are tested except for the make_a_guess function in the Game class. We did not have time to finish that part. The complex check_guess function was difficult to test because we were not sure what all the various interior methods were doing. For that, we ended up testing a few using simplified versions in irb. 
